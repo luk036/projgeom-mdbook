@@ -1,0 +1,14 @@
+[book]
+authors = ["Wai-Shing Luk"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Projective Geometry"
+
+[output.html]
+additional-css = ["katex.min.css"]
+
+[preprocessor.katex]
+after = ["links"]
+no-css = true
+include-src = true

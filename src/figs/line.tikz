@@ -1,0 +1,1 @@
+\documentclass[10pt]{article}\usepackage{pgf,tikz}\usepackage{mathrsfs}\usetikzlibrary{arrows}\pagestyle{empty}\begin{document}\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1cm,y=1cm]\clip(-0.74,-3.47) rectangle (10.92,5.81);\draw [line width=2pt,domain=-0.74:10.92] plot(\x,{(--22.91-4.01*\x)/5.44});\end{tikzpicture}\end{document}
