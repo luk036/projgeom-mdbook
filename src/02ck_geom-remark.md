@@ -145,7 +145,7 @@ theorem](figs/orthocenter.svg){#fig:orthocenter}
 - In other words, $T\cdot p$ =
   $(o^\mathsf{T} m) p - 2 (m^\mathsf{T} p) o$.
 
-### Python Code
+### 🐍 Python Code
 
 ```python
 from proj_geom import *
@@ -193,7 +193,7 @@ class reflect:
 
 - Note: they are invariant to any projective transformations.
 
-### Python Code
+### 🐍 Python Code
 
 ```python
 import numpy as np

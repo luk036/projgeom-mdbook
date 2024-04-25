@@ -148,7 +148,7 @@
 - Exercise: Calculate the line equation that joins the points
   $(5/8, 7/8)$ and $(-5/6, 1/6)$.
 
-### Python Code (pg_object)
+### 🐍 Python Code (pg_object)
 
 ```python
 class pg_object(np.ndarray):
@@ -177,7 +177,7 @@ class pg_object(np.ndarray):
         return T(np.cross(self, other))
 ```
 
-### Python Code (pg_point and pg_line)
+### 🐍 Python Code (pg_point and pg_line)
 
 ```python
 class pg_point(pg_object):
@@ -205,7 +205,7 @@ def meet(l, m):
     return l * m
 ```
 
-### Python Code (Example)
+### 🐍 Python Code (Example)
 
 ```python
 from __future__ import print_function
@@ -411,7 +411,7 @@ A 2 3 4 5 6 7 8 9 10 J Q K
 - Then
   $$\lambda [A] + \mu [B] = (l^\mathsf{T} [B]) [A] - (l^\mathsf{T} [A]) [B]$$
 
-### Python Code
+### 🐍 Python Code
 
 ```python
 def coincident(p, q, r):
@@ -452,7 +452,7 @@ def plucker(lambda1, p, mu1, q):
 - Exercise: verify that this theorem holds for `3`, `6`, `Q` on $l_3$
   and `8`, `9`, `J` on $l_8$ in the poker card geometry.
 
-### Python Code for the Proof
+### 🐍 Python Code for the Proof
 
 ```python
 import sympy
@@ -494,7 +494,7 @@ print(ans) # get 0
 - Triangle $\{ABC\}$ and trilateral $\{abc\}$ are dual if $A = bc$,
   $B = ac$ and $C = ab$.
 
-### Python Code (II)
+### 🐍 Python Code (II)
 
 ```python
 def tri(T):
@@ -571,7 +571,7 @@ def tri_func(func, T):
   $\doublebarwedge$ $(G,H,I)$ does not imply $(A,B,C)$
   $\doublebarwedge$ $(G,H,I)$.
 
-### Python Code (III)
+### 🐍 Python Code (III)
 
 ```python
 def persp(L, M):
@@ -617,7 +617,7 @@ def persp(L, M):
   - Due to the duality, the only-if part can be proved using the
     same technique.
 
-### Python Code for the Proof (II)
+### 🐍 Python Code for the Proof (II)
 
 ```python
 # Define symbol points p, q, s, t as before
@@ -722,7 +722,7 @@ print(ans) # get 0
 
 - Note: the cross ratio does not depend on what $O$ is chosen.
 
-### Python Code (IV)
+### 🐍 Python Code (IV)
 
 ```python
 from fractions import Fraction
